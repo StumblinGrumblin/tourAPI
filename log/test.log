@@ -1,0 +1,16 @@
+  [1m[36m (121.7ms)[0m  [1mDROP DATABASE IF EXISTS "api_test"[0m
+  [1m[35m (341.5ms)[0m  CREATE DATABASE "api_test" ENCODING = 'unicode'
+  [1m[36mSQL (0.5ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (5.2ms)[0m  CREATE TABLE "active_admin_comments" ("id" serial primary key, "namespace" character varying, "body" text, "resource_id" character varying NOT NULL, "resource_type" character varying NOT NULL, "author_id" integer, "author_type" character varying, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (2.6ms)[0m  [1mCREATE  INDEX  "index_active_admin_comments_on_author_type_and_author_id" ON "active_admin_comments" USING btree ("author_type", "author_id")[0m
+  [1m[35m (1.5ms)[0m  CREATE  INDEX  "index_active_admin_comments_on_namespace" ON "active_admin_comments" USING btree ("namespace")
+  [1m[36m (1.3ms)[0m  [1mCREATE  INDEX  "index_active_admin_comments_on_resource_type_and_resource_id" ON "active_admin_comments" USING btree ("resource_type", "resource_id")[0m
+  [1m[35m (3.9ms)[0m  CREATE TABLE "admin_users" ("id" serial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.6ms)[0m  [1mCREATE UNIQUE INDEX  "index_admin_users_on_email" ON "admin_users" USING btree ("email")[0m
+  [1m[35m (1.5ms)[0m  CREATE UNIQUE INDEX  "index_admin_users_on_reset_password_token" ON "admin_users" USING btree ("reset_password_token")
+  [1m[36m (2.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.5ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150728211246')
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150728211240')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
