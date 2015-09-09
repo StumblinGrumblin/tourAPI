@@ -977,3 +977,564 @@ Started GET "/api/v1/swagger_doc/tours" for ::1 at 2015-09-08 16:40:44 -0700
 
 
 Started GET "/api/v1/swagger_doc/exhibits" for ::1 at 2015-09-08 16:40:44 -0700
+
+
+Started GET "/documentation" for ::1 at 2015-09-08 16:48:01 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GrapeSwaggerRails::ApplicationController#index as HTML
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/grape-swagger-rails-0.1.0/app/views/grape_swagger_rails/application/index.html.erb (157.2ms)
+Completed 200 OK in 179ms (Views: 178.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/swagger_doc" for ::1 at 2015-09-08 16:48:01 -0700
+
+
+Started GET "/api/v1/swagger_doc" for ::1 at 2015-09-08 16:48:01 -0700
+
+
+Started GET "/api/v1/swagger_doc/exhibits" for ::1 at 2015-09-08 16:48:01 -0700
+
+
+Started GET "/api/v1/swagger_doc/tours" for ::1 at 2015-09-08 16:48:01 -0700
+
+
+Started GET "/api/v1/swagger_doc/exhibits" for ::1 at 2015-09-08 16:48:01 -0700
+
+
+Started GET "/api/v1/swagger_doc/tours" for ::1 at 2015-09-08 16:48:01 -0700
+
+
+Started GET "/api/v1/exhibits(.json)" for ::1 at 2015-09-08 16:48:10 -0700
+
+ActionController::RoutingError (No route matches [GET] "/api/v1/exhibits(.json)"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.2ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.2ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.6ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.9ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (162.4ms)
+
+
+Started GET "/api/v1/tours(.json)" for ::1 at 2015-09-08 16:48:16 -0700
+
+ActionController::RoutingError (No route matches [GET] "/api/v1/tours(.json)"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.3ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.1ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (173.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (4.2ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'active_admin_comments'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.6ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'admin_users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.8ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'exhibits'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.5ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'tours'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (13.0ms)[0m  [1mINSERT INTO "tours" ("title", "cover", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Internet Memes"], ["cover", "ducreux2.jpg"], ["created_at", "2015-09-08 23:52:28.154300"], ["updated_at", "2015-09-08 23:52:28.154300"]]
+  [1m[35m (381.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "tours" ("title", "cover", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["title", "Animals Riding Animals"], ["cover", "gator.jpg"], ["created_at", "2015-09-08 23:52:28.574169"], ["updated_at", "2015-09-08 23:52:28.574169"]]
+  [1m[36m (5.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "tours" ("title", "cover", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Balboa Park"], ["cover", "balboa.jpg"], ["created_at", "2015-09-08 23:52:28.587257"], ["updated_at", "2015-09-08 23:52:28.587257"]]
+  [1m[35m (60.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (12.0ms)[0m  INSERT INTO "exhibits" ("exNum", "artist", "title", "year", "script", "audio", "image", "tour_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"  [["exNum", 101], ["artist", "Anonymous"], ["title", "Joseph Ducreux"], ["year", 2009], ["script", "A portrait from 1793 remixed with archaic rap lyrics. What's not to love?"], ["audio", "1-ducreux"], ["image", "ducreux2.jpg"], ["tour_id", 7], ["created_at", "2015-09-08 23:52:28.782513"], ["updated_at", "2015-09-08 23:52:28.782513"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "exhibits" ("exNum", "artist", "title", "year", "script", "audio", "image", "tour_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["exNum", 102], ["artist", "Jason Steele"], ["title", "Charlie the Unicorn"], ["year", 2005], ["script", "In this odd flash animation the user is treated to a hilarious romp as Charlie the Unicorn goes in search of Candy Mountain."], ["audio", "2-charlie"], ["image", "charlie.jpg"], ["tour_id", 7], ["created_at", "2015-09-08 23:52:28.805117"], ["updated_at", "2015-09-08 23:52:28.805117"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "exhibits" ("exNum", "artist", "title", "year", "script", "audio", "image", "tour_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"  [["exNum", 103], ["artist", "Anonymous"], ["title", "I Took an Arrow in the Knee"], ["year", 2011], ["script", "Adventuring is dangerous, some people have to hang it up after a simple arrow to the knee."], ["audio", "3-arrowknee"], ["image", "arrowToKnee.jpg"], ["tour_id", 7], ["created_at", "2015-09-08 23:52:28.814962"], ["updated_at", "2015-09-08 23:52:28.814962"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "exhibits" ("exNum", "artist", "title", "year", "script", "audio", "image", "tour_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["exNum", 104], ["artist", "Melissa Sander"], ["title", "Grape Stomp Lady"], ["year", 1998], ["script", "The first work hailing from poorly produced TV. This unfortunate lady eats it."], ["audio", "4-grapelady"], ["image", "grapeLady.jpg"], ["tour_id", 7], ["created_at", "2015-09-08 23:52:28.822315"], ["updated_at", "2015-09-08 23:52:28.822315"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "exhibits" ("exNum", "artist", "title", "year", "script", "audio", "image", "tour_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"  [["exNum", 105], ["artist", "Ghyslain Raza"], ["title", "Star Wars Kid"], ["year", 2002], ["script", "This Canadian kid has mad skills."], ["audio", "5-swkid"], ["image", "swKid.jpg"], ["tour_id", 7], ["created_at", "2015-09-08 23:52:28.831369"], ["updated_at", "2015-09-08 23:52:28.831369"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "exhibits" ("exNum", "artist", "title", "year", "script", "audio", "image", "tour_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["exNum", 106], ["artist", "Gary Brolsma"], ["title", "Numa Numa"], ["year", 2004], ["script", "Words fail me."], ["audio", "6-numa"], ["image", "numa.jpg"], ["tour_id", 7], ["created_at", "2015-09-08 23:52:28.854997"], ["updated_at", "2015-09-08 23:52:28.854997"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "exhibits" ("exNum", "artist", "title", "year", "script", "audio", "image", "tour_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"  [["exNum", 107], ["artist", "Ben Schulz"], ["title", "Leeroy Jenkins"], ["year", 2005], ["script", "Leeroy Jenkins makes enemies in the World... of Warcraft."], ["audio", "7-leeroy"], ["image", "leeroy.jpg"], ["tour_id", 7], ["created_at", "2015-09-08 23:52:28.861500"], ["updated_at", "2015-09-08 23:52:28.861500"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "exhibits" ("exNum", "artist", "title", "year", "script", "audio", "image", "tour_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["exNum", 108], ["artist", "Hungrybear9562"], ["title", "Double Rainbow"], ["year", 2010], ["script", "All the way across the sky! I am so high right now."], ["audio", "8-rainbow"], ["image", "rainbow.jpg"], ["tour_id", 7], ["created_at", "2015-09-08 23:52:28.868383"], ["updated_at", "2015-09-08 23:52:28.868383"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "exhibits" ("exNum", "artist", "title", "year", "script", "audio", "image", "tour_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"  [["exNum", 109], ["artist", "The Buckwheat Boyz"], ["title", "Peanut Butter Jelly Time"], ["year", 2002], ["script", "I am a ba na na!"], ["audio", "9-pbjtime"], ["image", "pbjt.jpg"], ["tour_id", 7], ["created_at", "2015-09-08 23:52:28.875124"], ["updated_at", "2015-09-08 23:52:28.875124"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "exhibits" ("exNum", "artist", "title", "year", "script", "audio", "image", "tour_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["exNum", 201], ["artist", "Anonymous"], ["title", "Racoon Riding Alligator"], ["year", 2015], ["script", "This is a Racoon riding an Alligator."], ["audio", "201-raccoon"], ["image", "gator.jpg"], ["tour_id", 8], ["created_at", "2015-09-08 23:52:28.881986"], ["updated_at", "2015-09-08 23:52:28.881986"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "exhibits" ("exNum", "artist", "title", "year", "script", "audio", "image", "tour_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"  [["exNum", 202], ["artist", "Anonymous"], ["title", "Goat Riding Pony"], ["year", 2015], ["script", "This is a goat riding a pony."], ["audio", "202-goat"], ["image", "goat.jpg"], ["tour_id", 8], ["created_at", "2015-09-08 23:52:28.888243"], ["updated_at", "2015-09-08 23:52:28.888243"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "exhibits" ("exNum", "artist", "title", "year", "script", "audio", "image", "tour_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["exNum", 203], ["artist", "Anonymous"], ["title", "Rooster Riding Turtle"], ["year", 2015], ["script", "This is a rooster riding a turtle."], ["audio", "203-rooster"], ["image", "rooster_turtle.jpg"], ["tour_id", 8], ["created_at", "2015-09-08 23:52:28.894827"], ["updated_at", "2015-09-08 23:52:28.894827"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "exhibits" ("exNum", "artist", "title", "year", "script", "audio", "image", "tour_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"  [["exNum", 204], ["artist", "Anonymous"], ["title", "Weasel Riding Woodpecker"], ["year", 2015], ["script", "This is a Weasel riding a Woodpecker."], ["audio", "204-weasel"], ["image", "weasel_woodpecker.jpg"], ["tour_id", 8], ["created_at", "2015-09-08 23:52:28.902494"], ["updated_at", "2015-09-08 23:52:28.902494"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "exhibits" ("exNum", "artist", "title", "year", "script", "audio", "image", "tour_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["exNum", 205], ["artist", "Anonymous"], ["title", "Pug Riding Horse"], ["year", 2015], ["script", "This is a pug riding a horse."], ["audio", "205-pug"], ["image", "pug_horse.jpg"], ["tour_id", 8], ["created_at", "2015-09-08 23:52:28.909097"], ["updated_at", "2015-09-08 23:52:28.909097"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "exhibits" ("exNum", "artist", "title", "year", "script", "audio", "image", "tour_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"  [["exNum", 301], ["artist", "Anonymous"], ["title", "Sculpture Garden"], ["year", 1915], ["script", "Balboa Park Gardens are beautiful year round."], ["audio", "205-pug"], ["image", "botanicalGardens.jpg"], ["tour_id", 9], ["created_at", "2015-09-08 23:52:28.916451"], ["updated_at", "2015-09-08 23:52:28.916451"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/tours/1" for ::1 at 2015-09-08 16:55:28 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/tours/1"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.9ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.0ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (157.1ms)
+
+
+Started GET "/tours/1" for ::1 at 2015-09-08 16:55:34 -0700
+
+ActionController::RoutingError (No route matches [GET] "/tours/1"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (132.4ms)
+
+
+Started GET "/api/v1/tours" for ::1 at 2015-09-08 16:56:12 -0700
+  [1m[35mTour Load (12.1ms)[0m  SELECT "tours".* FROM "tours"
+
+
+Started GET "/api/v1/tours/1" for ::1 at 2015-09-08 17:03:43 -0700
+  [1m[36mTour Load (0.4ms)[0m  [1mSELECT  "tours".* FROM "tours" WHERE "tours"."id" = $1  ORDER BY "tours"."id" ASC LIMIT 1[0m  [["id", 1]]
+
+
+Started GET "/api/v1/tours/1/exhibits" for ::1 at 2015-09-08 17:03:50 -0700
+
+ActionController::RoutingError (No route matches [GET] "/api/v1/tours/1/exhibits"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.1ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (125.7ms)
+
+
+Started GET "/api/v1/tours/1/exhibits/" for ::1 at 2015-09-08 17:03:53 -0700
+
+ActionController::RoutingError (No route matches [GET] "/api/v1/tours/1/exhibits"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.1ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (120.2ms)
+
+
+Started GET "/api/v1/tours/1/exhibits/1" for ::1 at 2015-09-08 17:04:03 -0700
+
+ActionController::RoutingError (No route matches [GET] "/api/v1/tours/1/exhibits/1"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.1ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (124.9ms)
+
+
+Started GET "/api/v1/tours/1" for ::1 at 2015-09-08 17:04:07 -0700
+  [1m[35mTour Load (0.5ms)[0m  SELECT  "tours".* FROM "tours" WHERE "tours"."id" = $1  ORDER BY "tours"."id" ASC LIMIT 1  [["id", 1]]
+
+
+Started GET "/documentation" for ::1 at 2015-09-08 17:13:13 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GrapeSwaggerRails::ApplicationController#index as HTML
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/grape-swagger-rails-0.1.0/app/views/grape_swagger_rails/application/index.html.erb (157.1ms)
+Completed 200 OK in 198ms (Views: 197.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/swagger_doc" for ::1 at 2015-09-08 17:13:14 -0700
+
+
+Started GET "/api/v1/swagger_doc" for ::1 at 2015-09-08 17:13:14 -0700
+
+
+Started GET "/api/v1/swagger_doc/exhibits" for ::1 at 2015-09-08 17:13:14 -0700
+
+
+Started GET "/api/v1/swagger_doc/tours" for ::1 at 2015-09-08 17:13:14 -0700
+
+
+Started GET "/api/v1/swagger_doc/exhibits" for ::1 at 2015-09-08 17:13:14 -0700
+
+
+Started GET "/api/v1/swagger_doc/tours" for ::1 at 2015-09-08 17:13:14 -0700
+
+
+Started GET "/api/v1/tours" for ::1 at 2015-09-08 17:13:18 -0700
+  [1m[35mTour Load (0.6ms)[0m  SELECT "tours".* FROM "tours"
+
+
+Started GET "/api/v1/tours" for ::1 at 2015-09-08 17:13:25 -0700
+  [1m[36mTour Load (0.5ms)[0m  [1mSELECT "tours".* FROM "tours"[0m
+
+
+Started GET "/api/v1/tours/2" for ::1 at 2015-09-08 17:37:09 -0700
+  [1m[35mTour Load (0.4ms)[0m  SELECT  "tours".* FROM "tours" WHERE "tours"."id" = $1  ORDER BY "tours"."id" ASC LIMIT 1  [["id", 2]]
+
+
+Started GET "/api/v1/tours(.json)" for ::1 at 2015-09-08 17:42:59 -0700
+
+ActionController::RoutingError (No route matches [GET] "/api/v1/tours(.json)"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.1ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.3ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (26.7ms)
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (175.0ms)
+
+
+Started GET "/api/v1/tours" for ::1 at 2015-09-08 17:47:27 -0700
+  [1m[36mTour Load (0.3ms)[0m  [1mSELECT "tours".* FROM "tours"[0m
+
+
+Started GET "/documentation" for ::1 at 2015-09-08 17:50:19 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GrapeSwaggerRails::ApplicationController#index as HTML
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/grape-swagger-rails-0.1.0/app/views/grape_swagger_rails/application/index.html.erb (148.7ms)
+Completed 200 OK in 185ms (Views: 184.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/swagger_doc" for ::1 at 2015-09-08 17:50:41 -0700
+
+
+Started GET "/api/v1/swagger_doc" for ::1 at 2015-09-08 17:50:41 -0700
+
+
+Started GET "/api/v1/swagger_doc/tours" for ::1 at 2015-09-08 17:50:41 -0700
+
+
+Started GET "/api/v1/swagger_doc/exhibits" for ::1 at 2015-09-08 17:50:41 -0700
+
+
+Started GET "/api/v1/swagger_doc/tours" for ::1 at 2015-09-08 17:50:41 -0700
+
+
+Started GET "/api/v1/swagger_doc/exhibits" for ::1 at 2015-09-08 17:50:41 -0700
+
+
+Started GET "/api/v1/tours" for ::1 at 2015-09-08 17:50:55 -0700
+  [1m[35mTour Load (0.5ms)[0m  SELECT "tours".* FROM "tours"
+
+
+Started DELETE "/api/v1/tours/4" for ::1 at 2015-09-08 17:51:04 -0700
+  [1m[36mTour Load (0.5ms)[0m  [1mSELECT  "tours".* FROM "tours" WHERE "tours"."id" = $1  ORDER BY "tours"."id" ASC LIMIT 1[0m  [["id", 4]]
+
+
+Started GET "/api/v1/tours" for ::1 at 2015-09-08 17:51:12 -0700
+  [1m[35mTour Load (0.5ms)[0m  SELECT "tours".* FROM "tours"
+
+
+Started DELETE "/api/v1/tours/4" for ::1 at 2015-09-08 17:51:38 -0700
+  [1m[36mTour Load (0.3ms)[0m  [1mSELECT  "tours".* FROM "tours" WHERE "tours"."id" = $1  ORDER BY "tours"."id" ASC LIMIT 1[0m  [["id", 4]]
+
+
+Started DELETE "/api/v1/tours/4" for ::1 at 2015-09-08 17:52:34 -0700
+  [1m[35mTour Load (0.4ms)[0m  SELECT  "tours".* FROM "tours" WHERE "tours"."id" = $1  ORDER BY "tours"."id" ASC LIMIT 1  [["id", 4]]
+
+
+Started GET "/api/v1/tours" for ::1 at 2015-09-08 17:52:41 -0700
+  [1m[36mTour Load (0.3ms)[0m  [1mSELECT "tours".* FROM "tours"[0m
+
+
+Started GET "/api/v1/tours" for ::1 at 2015-09-08 17:52:43 -0700
+  [1m[35mTour Load (0.4ms)[0m  SELECT "tours".* FROM "tours"
+
+
+Started DELETE "/api/v1/tours/4" for ::1 at 2015-09-08 17:52:49 -0700
+  [1m[36mTour Load (0.4ms)[0m  [1mSELECT  "tours".* FROM "tours" WHERE "tours"."id" = $1  ORDER BY "tours"."id" ASC LIMIT 1[0m  [["id", 4]]
+
+
+Started GET "/documentation" for ::1 at 2015-09-08 17:59:12 -0700
+Processing by GrapeSwaggerRails::ApplicationController#index as HTML
+  Rendered /Users/stumblingrumblin/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/grape-swagger-rails-0.1.0/app/views/grape_swagger_rails/application/index.html.erb (85.6ms)
+Completed 200 OK in 103ms (Views: 102.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/swagger_doc" for ::1 at 2015-09-08 17:59:13 -0700
+
+
+Started GET "/api/v1/swagger_doc" for ::1 at 2015-09-08 17:59:13 -0700
+
+
+Started GET "/api/v1/swagger_doc/tours" for ::1 at 2015-09-08 17:59:13 -0700
+
+
+Started GET "/api/v1/swagger_doc/exhibits" for ::1 at 2015-09-08 17:59:13 -0700
+
+
+Started GET "/api/v1/swagger_doc/tours" for ::1 at 2015-09-08 17:59:13 -0700
+
+
+Started GET "/api/v1/swagger_doc/exhibits" for ::1 at 2015-09-08 17:59:13 -0700

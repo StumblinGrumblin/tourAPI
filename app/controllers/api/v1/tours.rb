@@ -16,6 +16,26 @@ module API
         get ":id", root: "tour" do
           Tour.where(id: permitted_params[:id]).first!
         end
+
+        # desc "Create a tour"
+        # params do
+        #   requires :tours, type: String, desc: "Your tour."
+        # end
+        # post do
+        #   authenticate!
+        #   Tour.create!({
+        #
+        #     })
+        # end
+
+
+        desc "Delete a tour"
+        params do
+          requires :id, type: String, desc: "ID of the tour"
+        end
+        delete ":id", root: "tour" do
+          Tour.where(id: permitted_params[:id]).first!
+        end
       end
     end
   end
