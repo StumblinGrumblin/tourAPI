@@ -3,6 +3,7 @@ module API
     class Tours < Grape::API
       include API::V1::Defaults
 
+
       resource :tours do
         desc "List all tours"
         get do
@@ -49,6 +50,15 @@ module API
         delete ":id" do
           Tour.find(params[:id]).destroy!
         end
+
+      route_param :tour_id do
+        resource :exhibits do
+          desc "List all exhibits for a tour."
+          get do
+            Tour.find(params[:tour_id]).exhibits
+          end
+        end
+      end
 
       end
     end
