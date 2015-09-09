@@ -1,1 +1,0 @@
-[{"name":"sql.active_record","payload":{"sql":"SELECT \"tours\".* FROM \"tours\"","name":"Tour Load","connection_id":70108933070160,"statement_name":null,"binds":[]},"time":"2015-09-08T17:52:43.869-07:00","transaction_id":"7cfbe619be152813047a","end":"2015-09-08T17:52:43.869-07:00","children":[],"duration":0.855}]

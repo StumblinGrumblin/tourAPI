@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby '2.2.2'
+ruby "2.2.2"
 
 gem "rails", "4.2.3"
 
@@ -10,6 +10,7 @@ gem "active_model_serializers"
 gem "grape"
 gem "grape-active_model_serializers"
 gem "grape-swagger-rails"
+gem "grape-rails-routes", "~> 1.0"
 gem "jquery-rails"
 gem "pg"
 gem "rack-cors", require: "rack/cors"

@@ -4,7 +4,6 @@ module API
   module V1
     class Base < Grape::API
       mount API::V1::Tours
-      mount API::V1::Exhibits
 
       add_swagger_documentation(
         api_version: "v1",

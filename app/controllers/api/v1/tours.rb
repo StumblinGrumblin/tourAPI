@@ -4,8 +4,8 @@ module API
       include API::V1::Defaults
 
       resource :tours do
-        desc "Return all tours"
-        get "", root: :tours do
+        desc "List all tours"
+        get do
           Tour.all
         end
 
@@ -17,25 +17,39 @@ module API
           Tour.where(id: permitted_params[:id]).first!
         end
 
-        # desc "Create a tour"
-        # params do
-        #   requires :tours, type: String, desc: "Your tour."
-        # end
-        # post do
-        #   authenticate!
-        #   Tour.create!({
-        #
-        #     })
-        # end
+        desc "Create a new tour"
+        params do
+          requires :title, type: String, desc: "Your tour title."
+          requires :cover, type: String, desc: "Your cover image url."
+        end
+        post do
+          Tour.create!({
+            title:params[:title],
+            cover:params[:cover]
+            })
+        end
 
+        desc "Update a tour"
+        params do
+          requires :id, type: String, desc: "Must provide ID of existing tour."
+          requires :title, type: String, desc: "New title."
+          requires :cover, type: String, desc: "New cover image."
+        end
+        put ':id' do
+          Tour.find(params[:id]).update({
+            title:params[:title],
+            cover:params[:cover]
+            })
+        end
 
         desc "Delete a tour"
         params do
           requires :id, type: String, desc: "ID of the tour"
         end
-        delete ":id", root: "tour" do
-          Tour.where(id: permitted_params[:id]).first!
+        delete ":id" do
+          Tour.find(params[:id]).destroy!
         end
+
       end
     end
   end
